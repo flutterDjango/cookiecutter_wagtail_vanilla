@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Stay Classy";
+    src : url("../fonts/stay_classy/Stay_Classy_SLDT.otf"),
+    url("../fonts/stay_classy/Stay_Classy_SLDT.ttf")
+}
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ececec;
+  
+}
+
+
+h1 {
+    font-family: Stay Classy, serif;
+    font-size: 5em;
+    text-align: center;
+    font-weight: 300;
+    
+  }
+
+.home {
+    height: 65vh;
+    width: 100%;
+    background-color: red;
+    
+}
+
+.backgound_wave {
+    width: 100%;
+    height: auto;
+
+}
